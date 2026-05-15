@@ -1,0 +1,12 @@
+{
+  "name": "Angular Docker Dev",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": ["Angular.ng-template", "esbenp.prettier-vscode"]
+    }
+  },
+  "remoteUser": "node"
+}
